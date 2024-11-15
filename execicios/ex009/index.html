@@ -7,30 +7,47 @@
         <title>Listas</title>
     </head>
     <body>
-        <h1>Trabando com listas</h1>        
+        <h1>Trabando com listas</h1>
+
         <h2>Listas ordenadas</h2>
-        <ol type="1" start="5">
+        &lt;ol type=" " start=" "&gt; - utlizado para criar listas ordenadas.
+        <p>&lt;li&gt; &lt;/li&gt; - acrescenta item a lista.</p>
+        <pre>
+            type - tipo de lista
+                1 - lista numérica
+                a - lista alfabética minúscula
+                A - lista alfabética maiúscula
+                i - lista números romanos minusculo
+                I - lista números romanos maiusculo
+            
+            start - por onde começar na lista, sempre infomado por um número 
+                3 - a lista irá iniciar da letra (c)
+        </pre>
+
+        <ol type="a" start="3">
             <li>Acordar</li>
-            <li>Ligar par ao João</li>
             <li>Tomar café</li>
             <li>Escovar os dentes</li>
-            <li>Ir para a faculdade</li>
-            <li>Almoçar</li>
-            <li>Ir para o trabalho</li>
-            <li>Voltar par acasa</li>           
-            <li>Jantar</li>
-            <li>Dormir</li>
+          
         </ol>
+
         <h2>Listas não ordenadas</h2>
+        &lt;ul type="&gt; - utlizado para criar listas não ordenadas.
+        <p>&lt;li&gt; &lt;/li&gt; - acrescenta item a lista.</p>
+        <pre>
+            type - tipo de marcação da lista
+                circle - circulo vazio
+                square - quadrado cheio
+                disc - circulo cheio
+        </pre>
+
         <ul type="square">
             <li>Pão</li>
             <li>Leite</li>
-            <li>Tomate</li>
             <li>Manteiga</li>
-            <li>Arroz</li>
-            <li>Feijão</li>
         </ul>
-        <h2>Minhas linguagens favoritas</h2>
+
+        <h2>Lista ordenadas dentro de lista ordenadas</h2>
         <ol>
             <li>Antigas</li>
             <ol type="a">
@@ -47,7 +64,8 @@
                 <li>Kotlin</li>
             </ol>
         </ol>
-        <h2>Meus jogos favoritos</h2>
+
+        <h2>lista não ordenadas dentro de listas ordenadas</h2>
         <ol>
             <li>NES</li>
             <ul type="square">
@@ -69,7 +87,11 @@
                 <li>CastleVania</li>
             </ul>
         </ol>
+        
         <h2>Lista de Definição</h2>
+        &lt;dl&gt; &lt;/dl&gt; - utlizado para criar listas de definição.
+        <p>&lt;dt&gt; &lt;/dt&gt; - adiciona a palavra a ser definida.</p>
+        <p>&lt;dd&gt; &lt;/dd&gt; - adiciona a definição da palavra informada no (dt).</p>
         <dl>
             <dt>HTML</dt>
             <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
