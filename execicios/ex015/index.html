@@ -13,15 +13,49 @@
     </head>
 
     <body >
-        <h1>Capítulo 1</h1>
-        <h2>Capítulo 1.1</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis voluptatem doloribus vel magnam ipsam velit sed, facilis provident sapiente nulla reprehenderit ullam dicta eum modi accusamus repellendus asperiores sequi voluptatibus?</p>
-        <h2>Capítulo 1.2</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reprehenderit laborum nam cum ipsa quaerat ex at recusandae aliquid unde earum velit veritatis nisi debitis qui laboriosam, distinctio magnam voluptatum.</p>
+        <h1 style="text-decoration: none; color: black;">Utilizado na parte do (head) para ter um link para a folha de estilo css</h1>
+        <pre>
+            &lt;link rel="stylesheet" href="style.css"&gt;
+        </pre>
+
+         
+        <h1>Utilizando Externos</h1>
+        <h3>Está parte de CSS é feita na folha de estilo (externa)</h3>
+        <pre>
+                @charset "UTF-8";                                   * informando que pode ter caracteres especiais
+
+                body {
+                    background-color: lightskyblue;                 * cor de fundo
+                    font-family: Arial, Helvetica, sans-serif;      * tipo da fonte
+                    font-size: 20px;                                * tamanho da fonte em (px)
+                }
+
+                h1 {
+                    color: darkblue;                                * cor da fonte
+                    background-color: lightblue;                    * cor de fundo da fonte
+                    font-size: 1.5em;                               * tamanho da fonte em (em)
+                }
+
+                h2 {
+                    color: darkred;                                 * cor da fonte
+                    font-size: 1.2em;                               * tamanho da fonte em (em)
+                }
+
+                p {
+                    text-align: justify;                            * alinhamento da fonte
+                }
+        </pre>
+
+        <h1>Título 1 (h1) - Primeiro</h1>
+        <h2>Título 2 (2) - Primeiro</h2>
+        <p>Parágrafo - Primeiro</p>
         
-        <h1>Capítulo 2</h1>
-        <h2>Capítulo 2.1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse saepe ducimus id iure aliquam, molestiae maiores reiciendis praesentium ipsam vero optio magni odit provident quisquam est repellat soluta voluptatem.</p>
+        <h2>Título 2 (2) - Segundo</h2>
+        <p>Parágrafo - Segundo</p>
+        
+        <h1>Título 1 (h1) - Segundo</h1>
+        <h2>Título 2 (2) - Terceiro</h2>
+        <p>Parágrafo - Terceiro</p>
         <p style="text-align: right;"><a href="pagina02.html" target="_self">Ir para a página 2</a></p>
     </body>
 </html>
