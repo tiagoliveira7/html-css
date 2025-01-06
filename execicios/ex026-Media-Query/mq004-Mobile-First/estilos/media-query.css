@@ -8,7 +8,7 @@
     }
 
     body {
-        background-image: url(../imagens/back-print.jpg); /* desnecessario pois n imprime background*/
+        background-image: url(../imagens/back-print.jpg); /* desnecessario pois não imprime background*/
     }
 
     main {

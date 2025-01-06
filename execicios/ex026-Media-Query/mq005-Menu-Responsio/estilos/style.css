@@ -25,6 +25,7 @@ span#burguer {
     color: white;
     text-align: center;
     padding: 10px;
+    /*mostrar cursor de maozinha ao colocar o mouse*/
     cursor: pointer;
 }
 
@@ -53,15 +54,15 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 main {
     width: 90vw;
     background-color: white;
     margin: auto;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 20px;
     border-radius: 10px;
 }
 
