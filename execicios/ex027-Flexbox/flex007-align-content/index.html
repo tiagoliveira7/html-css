@@ -7,38 +7,46 @@
     <style>
         div.conteiner {
             background-color: lightcoral;
-            height: 150px;
+            height: 400px;
             display: flex;
             flex-flow: row wrap;
-
             /*
-                (justify-content) é para os itens do (main-axis) sentido horizontal
-                    (flex-star) - coloca na parte do inicio da main dependendo de qual é a sua (flex-direction)
-                    (flex- end) - coloca na parte do final da main dependendo de qual é a sua (flex-direction)
+                (align-items:) é para os itens do (cross-axis) sentido vertical
+                    (flex-star) - coloca na parte do inicio da cross dependendo de qual é a sua (flex-direction)
+                    (flex- end) - coloca na parte do final da cross dependendo de qual é a sua (flex-direction)
                     (center) - centraliza
                     (space-between) - coloca um item no começo e um no final e ajustas o espaço entre os outros dividindo igualmente
                     (space-evenly) - pega todos os itens e divide espaço entre eles igualmente diferente do de cima, tbm coloca uma espaço no começo e no final
                     (space-around) - pega cada item e coloca dentro de um cloco o centrelizando e divide entre todo o conteiner
             */
-            justify-content: space-around;  
+            align-content: space-between;
         }
 
         div.item {
             background-color: aqua;
             border: 1px, solid black;
             text-align: center;
+            padding: 40px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">Executando A</div>
-        <div class="item">Executando B</div>
-        <div class="item">Executando C</div>
-        <div class="item">Executando D</div>
-        <div class="item">Executando E</div>
-        <div class="item">Executando F</div>
-        <div class="item">Executando G</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+        <div class="item">N</div>
+        <div class="item">O</div>
     </div>
 </body>
 </html>
