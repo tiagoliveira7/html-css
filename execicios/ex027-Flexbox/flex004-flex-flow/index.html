@@ -9,13 +9,9 @@
             background-color: lightcoral;
             display: flex;
 
-            /*
-                (flex-warp) informa qual o sentido que o itens irão ao diminuir a tela ou quando não couber mais dentro do espaço do conteiner
-                    (warp) - quebra o item no sentido do (flex-direction)
-                    (nowarp) - não irá ter quebra de item
-                    (warp-reverse) - quebra o item no sentindo inverso do (flex-direction)
-            */
-            flex-wrap: wrap;
+            /*(flex-flow) utilizado para subistituir os (flex-direction e o flex-warp)*/
+            /*tem a mesma função porém em uma unica linha, sendo preenchido nessa ordem*/
+            flex-flow: row wrap;
             
         }
 
