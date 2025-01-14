@@ -7,31 +7,38 @@
     <style>
         div.conteiner {
             background-color: lightcoral;
-            
-            /*inflormando que as caixas irão ser flexiciveis*/
             display: flex;
+            flex-flow: row nowrap;
         }
 
         div.item {
             background-color: aqua;
             border: 1px, solid black;
             text-align: center;
-            
-            /*fazendo com que as caixas flexiciveis se adaptem ao tamanho do conteiner*/
-            flex: auto;
-            
+            flex-basis: 300px;
+        }
+
+        div#cxA {
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+        div#cxB {
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div#cxC {
+            flex-shrink: 4;
+            flex-grow: 0;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
     </div>
 </body>
 </html>
