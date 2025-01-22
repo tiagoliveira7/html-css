@@ -19,21 +19,34 @@
         }
 
         /*
-            para criar individualmente o comportamento de cada item, é preciso dar um id para cada um deles e na CSS criar os seus comportamentos separadamente
+            o (flex) é para subistituir e ou ficar de forma mais simplificada os valores
+            do (flex-basis), (flex-grow) e (flex-shrink) em uma só na ordem...
+            flex: (flex-grow  flex-shrink  flex-basis)
+
+                padrões
+                        flex-grow      flex-shrink     flex-basis
+            1   flex:   0              1               auto
+            2   flex:   0              0               auto
+            3   flex:   1              1               auto
+
+                ou também pode ser
+            1   flex: initial
+            2   flex: none
+            3   flex: auto
+
+            que tem o mesmo resultado dos padrões de cada elemento
+
         */
         div#cxA {
-            flex-shrink: 0;
-            flex-grow: 0;
+            flex: 0 0 300px;
         }
 
         div#cxB {
-            flex-shrink: 1;
-            flex-grow: 1;
+            flex: 1 1 300px;
         }
 
         div#cxC {
-            flex-shrink: 4;
-            flex-grow: 0;
+            flex: 4 0 300px;
         }
     </style>
 </head>
